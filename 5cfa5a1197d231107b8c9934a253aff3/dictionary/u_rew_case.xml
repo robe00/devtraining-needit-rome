@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="fad0532b973131107b8c9934a253afed" extends="task" label="REW Case" max_length="40" name="u_rew_case" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pending Reason" max_length="40" name="x_1131426_innovate_pending_reason" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending customer" sequence="0" value="Pending customer"/>
+                <element inactive_on_update="false" label="Pending vendor" sequence="1" value="Pending vendor"/>
+                <element inactive_on_update="false" label="Pending owned" sequence="2" value="Pending owned"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Pending Timer" max_length="40" name="x_1131426_innovate_pending_timer" type="glide_date"/>
+    </element>
+</database>

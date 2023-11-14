@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="23a1ee5997d231107b8c9934a253af1c" label="ideas" max_length="40" name="x_1131426_innovate_ideas" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="100" name="additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="1000" name="description" type="string"/>
+        <element label="Idea implemented" max_length="40" name="idea_implemented" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Idea type" mandatory="true" max_length="40" name="idea_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cost savings" value="cost_savings"/>
+                <element inactive_on_update="false" label="Process improvement" value="process_improvement"/>
+                <element inactive_on_update="false" label="Team building" value="team_building"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Implementation Details" max_length="1000" name="implementation_details" type="string"/>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Middle" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="priorsetDispity" max_length="40" name="priorsetdispity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Reason Date" max_length="40" name="reason_dtae" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="125" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="New" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="Pending"/>
+                <element inactive_on_update="false" label="Done" sequence="2" value="Done"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Status Reason" max_length="40" name="status_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
