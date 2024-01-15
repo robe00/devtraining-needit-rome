@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="major_idea" table="x_1131426_innovate_ideas" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>major_idea</element>
+            <name>x_1131426_innovate_ideas</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-18 21:11:55</sys_created_on>
+            <sys_id>abb9dd9697e231107b8c9934a253af4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>major_idea</sys_name>
+            <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+            <sys_update_name>sys_choice_x_1131426_innovate_ideas_major_idea</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-18 21:11:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>major_idea</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>no</label>
+            <language>en</language>
+            <name>x_1131426_innovate_ideas</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-18 21:12:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efb9dd5697e231107b8c9934a253af39</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-18 21:14:01</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>major_idea</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>yes</label>
+            <language>en</language>
+            <name>x_1131426_innovate_ideas</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-18 21:11:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ba9199697e231107b8c9934a253af19</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-18 21:13:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

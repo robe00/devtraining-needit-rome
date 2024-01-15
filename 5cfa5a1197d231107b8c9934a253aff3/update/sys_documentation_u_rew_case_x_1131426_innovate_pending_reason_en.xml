@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_1131426_innovate_pending_reason" label="Pending Reason" language="en" table="u_rew_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_1131426_innovate_pending_reason</element>
+            <help/>
+            <hint/>
+            <label>Pending Reason</label>
+            <language>en</language>
+            <name>u_rew_case</name>
+            <plural>Pending Reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-04 17:40:07</sys_created_on>
+            <sys_id>a4036431979a71107b8c9934a253afa4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pending Reason</sys_name>
+            <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+            <sys_update_name>sys_documentation_u_rew_case_x_1131426_innovate_pending_reason_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-04 17:40:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
