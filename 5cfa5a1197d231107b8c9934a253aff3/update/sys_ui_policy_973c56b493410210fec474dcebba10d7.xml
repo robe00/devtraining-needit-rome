@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1131426_innovate_needit">u_choice_4=Other^EQ<item display_value="Other" endquery="false" field="u_choice_4" goto="false" newquery="false" operator="=" or="false" value="Other"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    // Display a message under the Other field to explain what to put in the
+    // Other field.
+    g_form.showFieldMsg('what_needed','Briefly explain what you need.','info');
+}]]></script_true>
+        <set_values/>
+        <short_description>What needed is Other Show Other</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 16:49:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>973c56b493410210fec474dcebba10d7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>What needed is Other Show Other</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_ui_policy_973c56b493410210fec474dcebba10d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 17:31:13</sys_updated_on>
+        <table>x_1131426_innovate_needit</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

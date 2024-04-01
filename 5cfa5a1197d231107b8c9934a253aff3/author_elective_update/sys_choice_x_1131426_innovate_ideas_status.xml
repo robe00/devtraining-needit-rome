@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-11-04 19:45:32</sys_created_on>
-            <sys_id>f9bfbcb997da71107b8c9934a253af3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2023-11-04 19:45:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>75bfbcb997da71107b8c9934a253af3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-11-04 19:45:32</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2023-11-04 19:46:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a1dff8f997da71107b8c9934a253afde</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-11-04 19:46:04</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2023-11-04 19:46:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e5dffcf997da71107b8c9934a253af77</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-11-04 19:46:04</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2023-11-25 19:50:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>084acd60977231107b8c9934a253afc5</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-11-25 19:51:14</sys_updated_on>

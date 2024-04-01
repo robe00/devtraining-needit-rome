@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-03-03 21:46:32</sys_created_on>
-            <sys_id>443a5f5093700210fec474dcebba10ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_choice_4</sys_name>
             <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
@@ -21,20 +20,19 @@
             <element>u_choice_4</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Resources 1</label>
+            <label>Legal 1</label>
             <language>en</language>
             <name>x_1131426_innovate_needit</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
+            <sys_created_on>2024-03-03 21:46:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>463b1f9093700210fec474dcebba1049</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>hr1</value>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>legal 1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -50,7 +48,6 @@
             <sys_created_on>2024-03-03 21:46:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>583a5f5093700210fec474dcebba10be</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
@@ -60,7 +57,7 @@
             <dependent_value/>
             <element>u_choice_4</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Human Resources 1</label>
             <language>en</language>
             <name>x_1131426_innovate_needit</name>
@@ -70,71 +67,10 @@
             <sys_created_on>2024-03-03 21:51:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0a3b1f9093700210fec474dcebba104b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>hr2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_4</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Facilities 1</label>
-            <language>en</language>
-            <name>x_1131426_innovate_needit</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ce3b1f9093700210fec474dcebba10e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>facilities1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_4</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Facilities 2</label>
-            <language>en</language>
-            <name>x_1131426_innovate_needit</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>823b1f9093700210fec474dcebba10e5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>facilities2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_4</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Legal 1</label>
-            <language>en</language>
-            <name>x_1131426_innovate_needit</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:46:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>003a5f5093700210fec474dcebba10ba</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>legal 1</value>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>hr1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -144,16 +80,15 @@
             <label>Legal 2</label>
             <language>en</language>
             <name>x_1131426_innovate_needit</name>
-            <sequence>5</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-03-03 21:46:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>943a5f5093700210fec474dcebba10bc</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
             <value>legal 2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -161,7 +96,102 @@
             <element>u_choice_4</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_1131426_innovate_needit</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-17 16:43:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_4</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Your Department Choice 2</label>
+            <language>en</language>
+            <name>x_1131426_innovate_needit</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>your_choice2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_4</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Your Department Choice 1</label>
+            <language>en</language>
+            <name>x_1131426_innovate_needit</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>your_choice1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_4</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Human Resources 1</label>
+            <language>en</language>
+            <name>x_1131426_innovate_needit</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>hr2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_4</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Facilities 1</label>
+            <language>en</language>
+            <name>x_1131426_innovate_needit</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>facilities1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_4</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Facilities 2</label>
             <language>en</language>
             <name>x_1131426_innovate_needit</name>
             <sequence>6</sequence>
@@ -170,31 +200,10 @@
             <sys_created_on>2024-03-03 21:51:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>823b1f9093700210fec474dcebba10eb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>your_choice1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_4</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Your Department Choice 2</label>
-            <language>en</language>
-            <name>x_1131426_innovate_needit</name>
-            <sequence>7</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:51:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>463b1f9093700210fec474dcebba10ed</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:51:01</sys_updated_on>
-            <value>your_choice2</value>
+            <sys_updated_on>2024-03-17 16:43:45</sys_updated_on>
+            <value>facilities2</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -15,8 +15,8 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
-	g_form.setValue('reason_dtae','');
-	g_form.setValue('status_reason','')
+	g_form.setValue('pending_reason','');
+	g_form.setValue('pending_timer','')
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
 
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b7f78f997da71107b8c9934a253afd8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Show reason fields when pending</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
         <sys_update_name>sys_ui_policy_2b7f78f997da71107b8c9934a253afd8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-23 22:07:22</sys_updated_on>
+        <sys_updated_on>2024-03-17 16:15:59</sys_updated_on>
         <table>x_1131426_innovate_ideas</table>
         <ui_type>10</ui_type>
         <view/>

@@ -2,22 +2,22 @@
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
         <disabled>ignore</disabled>
-        <field>x_1131426_innovate_pending_timer</field>
+        <field>pending_reason</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-11-04 18:01:42</sys_created_on>
-        <sys_id>61e7a475979a71107b8c9934a253afc5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_1131426_innovate_pending_timer</sys_name>
+        <sys_created_on>2024-03-17 16:16:34</sys_created_on>
+        <sys_id>3fc4debc93010210fec474dcebba1002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pending_reason</sys_name>
         <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
-        <sys_update_name>sys_ui_policy_action_61e7a475979a71107b8c9934a253afc5</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_3fc4debc93010210fec474dcebba1002</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-04 18:08:16</sys_updated_on>
-        <table>u_rew_case</table>
-        <ui_policy display_value="Show pending fields when state=pending">a0542c71979a71107b8c9934a253af77</ui_policy>
+        <sys_updated_on>2024-03-17 16:16:34</sys_updated_on>
+        <table>x_1131426_innovate_ideas</table>
+        <ui_policy display_value="Show reason fields when pending">2b7f78f997da71107b8c9934a253afd8</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

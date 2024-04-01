@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>x_1131426_innovate_pending_timer</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 18:01:42</sys_created_on>
+        <sys_id>61e7a475979a71107b8c9934a253afc5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1131426_innovate_pending_timer</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_61e7a475979a71107b8c9934a253afc5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 18:08:16</sys_updated_on>
+        <table>u_rew_case</table>
+        <ui_policy display_value="Show pending fields when state=pending">a0542c71979a71107b8c9934a253af77</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</application>
+        <file_path/>
+        <instance_id>1e8822cddbaaf55805ef1729139619a0</instance_id>
+        <instance_name>dev211839</instance_name>
+        <name>sys_ui_policy_action_61e7a475979a71107b8c9934a253afc5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>x_1131426_innovate_pending_timer</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-04 18:01:42</sys_created_on><sys_id>61e7a475979a71107b8c9934a253afc5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1131426_innovate_pending_timer</sys_name><sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package><sys_policy/><sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope><sys_update_name>sys_ui_policy_action_61e7a475979a71107b8c9934a253afc5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-04 18:08:16</sys_updated_on><table>u_rew_case</table><ui_policy display_value="Show pending fields when state=pending">a0542c71979a71107b8c9934a253af77</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-553525314</payload_hash>
+        <record_name>x_1131426_innovate_pending_timer</record_name>
+        <reverted_from/>
+        <source>100833b093b73110fec474dcebba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 20:11:06</sys_created_on>
+        <sys_id>160837b093b73110fec474dcebba102c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0ebfcb0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 20:11:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d20837b081b731103b0315be56d3832c</update_guid>
+        <update_guid_history>d20837b081b731103b0315be56d3832c:-553525314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 16:12:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>777f79440f5f46d0a587733c8eb33640</sys_id>
+        <sys_metadata>61e7a475979a71107b8c9934a253afc5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1131426_innovate_pending_timer</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_parent display_value="Show pending fields when state=pending">a0542c71979a71107b8c9934a253af77</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_scope_delete display_value="">3d0c0476ae1842fc9c098640f1b71b10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_61e7a475979a71107b8c9934a253afc5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_61e7a475979a71107b8c9934a253afc5">160837b093b73110fec474dcebba102c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 16:12:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
