@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 16:49:57</sys_created_on>
+        <sys_id>d98c9ab493410210fec474dcebba1056</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>other</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d98c9ab493410210fec474dcebba1056</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 17:02:33</sys_updated_on>
+        <table>x_1131426_innovate_needit</table>
+        <ui_policy display_value="What needed is Other Show Other">973c56b493410210fec474dcebba10d7</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

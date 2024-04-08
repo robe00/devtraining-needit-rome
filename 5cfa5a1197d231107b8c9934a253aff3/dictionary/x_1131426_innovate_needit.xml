@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="152f9e4493740210fec474dcebba1060" extends="task" label="Needit" max_length="40" name="x_1131426_innovate_needit" type="collection">
+        <element label="Created by" max_length="40" name="created_by" type="string"/>
+        <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
+        <element default="1" label="New field 2" max_length="40" name="new_field_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for Email" max_length="40" name="requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_calendar_date_time_5" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="1" value="hr"/>
+                <element inactive_on_update="false" label="Facilities" sequence="2" value="facilities"/>
+                <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your choice"/>
+                <element inactive_on_update="false" label="Major Incident" sequence="4" value="Major Incident"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal 1"/>
+                <element inactive="true" inactive_on_update="true" label="Legal 3" sequence="0" value="legal 3"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 1" sequence="1" value="hr1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="1" value="legal 2"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+                <element inactive="true" inactive_on_update="true" label="Your Department Choice 2" sequence="2" value="your_choice2"/>
+                <element inactive="true" inactive_on_update="true" label="Your Department Choice 1" sequence="3" value="your_choice1"/>
+                <element inactive="true" inactive_on_update="true" label="Human Resources 1" sequence="4" value="hr2"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities 1" sequence="5" value="facilities1"/>
+                <element inactive="true" inactive_on_update="true" label="Facilities 2" sequence="6" value="facilities2"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Choice 1" max_length="40" name="u_integer_1" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+    </element>
+</database>

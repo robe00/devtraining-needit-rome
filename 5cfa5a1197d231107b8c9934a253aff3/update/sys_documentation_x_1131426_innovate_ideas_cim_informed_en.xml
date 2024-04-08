@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cim_informed" label="CIM informed" language="en" table="x_1131426_innovate_ideas">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cim_informed</element>
+            <help/>
+            <hint/>
+            <label>CIM informed</label>
+            <language>en</language>
+            <name>x_1131426_innovate_ideas</name>
+            <plural>CIM informed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-20 21:37:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CIM informed</sys_name>
+            <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+            <sys_update_name>sys_documentation_x_1131426_innovate_ideas_cim_informed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-20 21:37:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

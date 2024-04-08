@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1131426_innovate.needit_user" name="x_1131426_innovate.needit_user">0820ae4493740210fec474dcebba10ae</contains>
+        <role display_value="x_1131426_innovate.admin" name="x_1131426_innovate.admin">ff4ab1a793110210fec474dcebba106f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-07 13:41:06</sys_created_on>
+        <sys_id>aabab9a793110210fec474dcebba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1131426_innovate.needit_user.x_1131426_innovate.admin</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_user_role_contains_aabab9a793110210fec474dcebba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-07 13:41:06</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

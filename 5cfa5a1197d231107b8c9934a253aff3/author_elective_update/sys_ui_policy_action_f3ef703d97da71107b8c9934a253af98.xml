@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>status_reason</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-04 19:46:45</sys_created_on>
+        <sys_id>f3ef703d97da71107b8c9934a253af98</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>status_reason</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f3ef703d97da71107b8c9934a253af98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-04 19:46:54</sys_updated_on>
+        <table>x_1131426_innovate_ideas</table>
+        <ui_policy display_value="Show reason fields when pending">2b7f78f997da71107b8c9934a253afd8</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</application>
+        <file_path/>
+        <instance_id>1e8822cddbaaf55805ef1729139619a0</instance_id>
+        <instance_name>dev211839</instance_name>
+        <name>sys_ui_policy_action_f3ef703d97da71107b8c9934a253af98</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>status_reason</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-04 19:46:45</sys_created_on><sys_id>f3ef703d97da71107b8c9934a253af98</sys_id><sys_mod_count>1</sys_mod_count><sys_name>status_reason</sys_name><sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package><sys_policy/><sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope><sys_update_name>sys_ui_policy_action_f3ef703d97da71107b8c9934a253af98</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-04 19:46:54</sys_updated_on><table>x_1131426_innovate_ideas</table><ui_policy display_value="Show reason fields when pending">2b7f78f997da71107b8c9934a253afd8</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-964584220</payload_hash>
+        <record_name>status_reason</record_name>
+        <reverted_from/>
+        <source>100833b093b73110fec474dcebba10d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 20:11:06</sys_created_on>
+        <sys_id>5a0837b093b73110fec474dcebba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0ebfcb3f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 20:11:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1a0837b0c3b73110781685d7fca45730</update_guid>
+        <update_guid_history>1a0837b0c3b73110781685d7fca45730:-964584220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 16:15:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>801b3a923beb4b148c2b7ae94b72daa4</sys_id>
+        <sys_metadata>f3ef703d97da71107b8c9934a253af98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status_reason</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_parent display_value="Show reason fields when pending">2b7f78f997da71107b8c9934a253afd8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_scope_delete display_value="">3d0c0476ae1842fc9c098640f1b71b10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f3ef703d97da71107b8c9934a253af98</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f3ef703d97da71107b8c9934a253af98">5a0837b093b73110fec474dcebba1030</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 16:15:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

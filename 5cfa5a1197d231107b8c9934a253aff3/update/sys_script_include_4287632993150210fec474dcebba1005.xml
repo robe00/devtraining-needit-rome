@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1131426_innovate.NeedItUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>NeedItUtils</name>
+        <script><![CDATA[// util functions in own class ----------------------------------------------
+var NeedItUtils = Class.create();
+NeedItUtils.prototype = {
+    initialize: function() {
+        this.x = 7;
+    },
+    // The testing property is a function
+    testing: function() {
+        gs.info("x = " + this.x);
+    },
+    isDatePast: function(strDate) {
+        // Create GlideDateTime objects for the current date and the passed in date
+        var rightnow = new GlideDateTime();
+        var testdate = new GlideDateTime(strDate);
+
+		gs.info("rightnow = " + rightnow);
+		gs.info("testdate = " + testdate);
+
+        // If the testdate is before rightnow, return true, else return false
+        if (testdate.before(rightnow)) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    // The type property is not a function
+    type: 'NeedItUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 16:29:18</sys_created_on>
+        <sys_id>4287632993150210fec474dcebba1005</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_script_include_4287632993150210fec474dcebba1005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 18:15:14</sys_updated_on>
+    </sys_script_include>
+</record_update>
