@@ -17,6 +17,8 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_choice_4" type="string">
             <choice>
+                <element inactive_on_update="false" label="Facilities 1" sequence="0" value="Facilities 1"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="0" value="Human Resources 2"/>
                 <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal 1"/>
                 <element inactive="true" inactive_on_update="true" label="Legal 3" sequence="0" value="legal 3"/>
                 <element inactive="true" inactive_on_update="true" label="Human Resources 1" sequence="1" value="hr1"/>
