@@ -4,16 +4,45 @@
             <element>description</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-11-03 14:10:29</sys_created_on>
-            <sys_id>40792e51971631107b8c9934a253afc2</sys_id>
+            <sys_created_on>2024-06-02 15:35:13</sys_created_on>
+            <sys_id>80edeae993e24210fec474dcebba1027</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="My Idea" display_value="My Idea" name="x_1131426_innovate_ideas" sys_domain="global" view="Default view">3f692e51971631107b8c9934a253af95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-11-03 14:10:29</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:35:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3fddeae993e24210fec474dcebba1023</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-02 15:35:13</sys_created_on>
+            <sys_id>04edeae993e24210fec474dcebba1027</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="My Idea" display_value="My Idea" name="x_1131426_innovate_ideas" sys_domain="global" view="Default view">3f692e51971631107b8c9934a253af95</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-02 15:35:13</sys_updated_on>
+            <sys_user/>
+            <type>chart</type>
+        </sys_ui_element>
+        <sys_ui_chart action="INSERT_OR_UPDATE">
+            <form_field/>
+            <height>300</height>
+            <label>% complete pareto</label>
+            <report/>
+            <report_field/>
+            <report_qual/>
+            <section caption="My Idea" display_value="My Idea" name="x_1131426_innovate_ideas" sys_domain="global" view="Default view">3f692e51971631107b8c9934a253af95</section>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-02 15:35:13</sys_created_on>
+            <sys_id>3fddeae993e24210fec474dcebba1023</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-02 15:35:13</sys_updated_on>
+        </sys_ui_chart>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>My Idea</caption>
             <header>false</header>
@@ -28,9 +57,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1131426_innovate_ideas</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+            <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+            <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
             <sys_update_name>sys_ui_section_3f692e51971631107b8c9934a253af95</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-11-03 14:10:28</sys_updated_on>

@@ -4,13 +4,13 @@
             <element>opened_at</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>88acd31493700210fec474dcebba102a</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>46ceaa2d93e24210fec474dcebba104d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>sys_updated_on</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>0cacd31493700210fec474dcebba102a</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>c6ceaa2d93e24210fec474dcebba104d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,86 +32,115 @@
             <element>sys_created_on</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>8cacd31493700210fec474dcebba102a</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>4aceaa2d93e24210fec474dcebba104d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>0aceaa2d93e24210fec474dcebba1046</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>00acd31493700210fec474dcebba102b</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>caceaa2d93e24210fec474dcebba104d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
+            <sys_user/>
+            <type>chart</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>4eceaa2d93e24210fec474dcebba104d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>opened_by</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>80acd31493700210fec474dcebba102b</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>ceceaa2d93e24210fec474dcebba104d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_updated_by</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>04acd31493700210fec474dcebba102b</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>42ceaa2d93e24210fec474dcebba104e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>created_by</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>84acd31493700210fec474dcebba102b</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>c2ceaa2d93e24210fec474dcebba104e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-03 21:57:10</sys_created_on>
-            <sys_id>08acd31493700210fec474dcebba102b</sys_id>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>46ceaa2d93e24210fec474dcebba104e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
+            <sys_updated_on>2024-06-02 15:39:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_chart action="INSERT_OR_UPDATE">
+            <form_field>u_choice_3</form_field>
+            <height>200</height>
+            <label>% complete pareto</label>
+            <report display_value="NeedIt Requests by Type">82c7695993220210fec474dcebba10d2</report>
+            <report_field>u_choice_4</report_field>
+            <report_qual>active=true</report_qual>
+            <section caption="Statistics" display_value="Statistics" name="x_1131426_innovate_needit" sys_domain="global" view="Default view">4cac931493700210fec474dcebba10e9</section>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-02 15:39:10</sys_created_on>
+            <sys_id>0aceaa2d93e24210fec474dcebba1046</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-02 16:56:03</sys_updated_on>
+        </sys_ui_chart>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Statistics</caption>
             <header>false</header>
@@ -126,9 +155,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1131426_innovate_needit</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+            <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+            <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
             <sys_update_name>sys_ui_section_4cac931493700210fec474dcebba10e9</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-03-03 21:57:10</sys_updated_on>
