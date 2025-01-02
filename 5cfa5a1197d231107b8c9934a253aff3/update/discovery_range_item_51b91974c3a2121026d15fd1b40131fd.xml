@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_range_item">
+    <discovery_range_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes>192.168.178.200</attributes>
+        <end_ip_address/>
+        <name>win</name>
+        <netmask/>
+        <network_ip/>
+        <parent/>
+        <schedule display_value="win">4b79d174c3a2121026d15fd1b4013186</schedule>
+        <start_ip_address/>
+        <summary>192.168.178.200</summary>
+        <sys_class_name>discovery_range_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-15 21:44:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51b91974c3a2121026d15fd1b40131fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>win</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>discovery_range_item_51b91974c3a2121026d15fd1b40131fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-15 21:45:26</sys_updated_on>
+        <type>IP Address List</type>
+    </discovery_range_item>
+</record_update>
