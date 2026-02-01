@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>checks for cmdb classes their upstream relations</description>
+        <name>FIX_check_upstream</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// ======================================================================
+// CMDB Upstream Relation Completeness Check (with Relation Types + Debug)
+// Author: Rolf + Copilot
+// ======================================================================
+
+// ----------------------------------------------------------------------
+// DEFINE EXPECTED UPSTREAMS PER RELATION TYPE
+// ----------------------------------------------------------------------
+
+var REQUIRED = {
+    "Runs on": [
+        "cmdb_ci_hardware",
+        "cmdb_ci_esx_server"
+    ],
+    "Depends on": [
+        "cmdb_ci_database",
+        "cmdb_ci_app_server"
+    ],
+    "Hosted on": [
+        "cmdb_ci_ip_switch",
+        "cmdb_ci_ip_router",
+        "cmdb_ci_lb"
+    ]
+};
+
+// ----------------------------------------------------------------------
+// MAIN EXECUTION
+// ----------------------------------------------------------------------
+
+gs.info("=== CMDB Upstream Relation Check START ===");
+
+var results = [];
+
+var serverGR = new GlideRecord('cmdb_ci_server');
+serverGR.query();
+
+while (serverGR.next()) {
+
+    var serverSysId = serverGR.getUniqueValue();
+    var serverName = serverGR.getValue('name');
+
+    gs.info("Checking server: " + serverName + " (" + serverSysId + ")");
+
+    var serverResult = {
+        server: serverName,
+        sys_id: serverSysId,
+        relation_types: {}
+    };
+
+    // Loop through each relation type definition
+    for (var relType in REQUIRED) {
+
+        gs.info("  Relation type: " + relType);
+
+        var expectedClasses = REQUIRED[relType];
+        var present = [];
+        var missing = [];
+
+        for (var i = 0; i < expectedClasses.length; i++) {
+            var upstreamClass = expectedClasses[i];
+
+            gs.info("    Checking upstream class: " + upstreamClass);
+
+            var relGR = new GlideRecord('cmdb_rel_ci');
+            relGR.addQuery('child', serverSysId);
+            relGR.addQuery('type.name', relType);
+            relGR.addQuery('parent.sys_class_name', upstreamClass);
+            relGR.query();
+
+            if (relGR.hasNext()) {
+                gs.info("      ✔ FOUND relation to " + upstreamClass);
+                present.push(upstreamClass);
+            } else {
+                gs.info("      ✘ MISSING relation to " + upstreamClass);
+                missing.push(upstreamClass);
+            }
+        }
+
+        serverResult.relation_types[relType] = {
+            present_upstreams: present,
+            missing_upstreams: missing
+        };
+    }
+
+    results.push(serverResult);
+}
+
+gs.info("=== CMDB Upstream Relation Check DONE ===");
+
+// Output JSON summary
+gs.info("=== RESULT JSON START ===");
+gs.info(JSON.stringify(results, null, 2));
+gs.info("=== RESULT JSON END ===");
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-12 21:33:37</sys_created_on>
+        <sys_id>24305d53c352321025e6fb377d013181</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FIX_check_upstream</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_script_fix_24305d53c352321025e6fb377d013181</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-12 21:50:46</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

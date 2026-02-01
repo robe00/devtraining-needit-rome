@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_schedule">
+    <discovery_schedule action="DELETE">
+        <accel_config/>
+        <active>true</active>
+        <behavior/>
+        <business_calendar/>
+        <ci_id/>
+        <ci_type/>
+        <condition/>
+        <conditional>false</conditional>
+        <credential_aliases/>
+        <disco_run_type>on_demand</disco_run_type>
+        <discover>CIs</discover>
+        <entered_time/>
+        <even_if_canceled>true</even_if_canceled>
+        <include_alive>false</include_alive>
+        <location/>
+        <log_state_changes>false</log_state_changes>
+        <max_drift/>
+        <max_run/>
+        <mid_cluster/>
+        <mid_select_method>specific_mid</mid_select_method>
+        <mid_server/>
+        <name>fritz_all_via_windell</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <quick_start>false</quick_start>
+        <run_after/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2025-08-08 20:05:21</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var rt = new global.DiscoveryScheduleRunType(current.disco_run_type + ''); if (rt.match() || new global.DiscoveryJob(job).isRunOnce()) { var dd = new global.Discovery(); dd.discoveryStartJob(); }]]></script>
+        <service_attributes/>
+        <service_discovery>ci_type</service_discovery>
+        <service_group_attributes/>
+        <service_group_table>cmdb_ci_service_group</service_group_table>
+        <service_table>cmdb_ci_service_discovered</service_table>
+        <shazzam_batch_size>1000</shazzam_batch_size>
+        <shazzam_cluster_support>true</shazzam_cluster_support>
+        <sys_class_name>discovery_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 20:05:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5d8a5cf0c3dfae1025e6fb377d013177</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>fritz_all_via_windell</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>discovery_schedule_5d8a5cf0c3dfae1025e6fb377d013177</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-19 19:51:26</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_snmp_version>all</use_snmp_version>
+        <vm_run/>
+        <was_created_by_system>false</was_created_by_system>
+    </discovery_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</application>
+        <file_path/>
+        <instance_id>640a08bb93646a50d9f6ddd548373c3e</instance_id>
+        <instance_name>dev314459</instance_name>
+        <name>discovery_schedule_5d8a5cf0c3dfae1025e6fb377d013177</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="discovery_schedule"&gt;&lt;discovery_schedule action="INSERT_OR_UPDATE"&gt;&lt;accel_config/&gt;&lt;active&gt;true&lt;/active&gt;&lt;behavior/&gt;&lt;business_calendar/&gt;&lt;ci_id/&gt;&lt;ci_type/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;credential_aliases/&gt;&lt;disco_run_type&gt;on_demand&lt;/disco_run_type&gt;&lt;discover&gt;CIs&lt;/discover&gt;&lt;entered_time/&gt;&lt;even_if_canceled&gt;true&lt;/even_if_canceled&gt;&lt;include_alive&gt;false&lt;/include_alive&gt;&lt;location/&gt;&lt;log_state_changes&gt;false&lt;/log_state_changes&gt;&lt;max_drift/&gt;&lt;max_run/&gt;&lt;mid_cluster/&gt;&lt;mid_select_method&gt;specific_mid&lt;/mid_select_method&gt;&lt;mid_server/&gt;&lt;name&gt;fritz_all_via_windell&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;quick_start&gt;false&lt;/quick_start&gt;&lt;run_after/&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2025-08-08 20:05:21&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;on_demand&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[var rt = new global.DiscoveryScheduleRunType(current.disco_run_type + ''); if (rt.match() || new global.DiscoveryJob(job).isRunOnce()) { var dd = new global.Discovery(); dd.discoveryStartJob(); }]]&gt;&lt;/script&gt;&lt;service_attributes/&gt;&lt;service_discovery&gt;ci_type&lt;/service_discovery&gt;&lt;service_group_attributes/&gt;&lt;service_group_table&gt;cmdb_ci_service_group&lt;/service_group_table&gt;&lt;service_table&gt;cmdb_ci_service_discovered&lt;/service_table&gt;&lt;shazzam_batch_size&gt;1000&lt;/shazzam_batch_size&gt;&lt;shazzam_cluster_support&gt;true&lt;/shazzam_cluster_support&gt;&lt;sys_class_name&gt;discovery_schedule&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-08 20:05:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;5d8a5cf0c3dfae1025e6fb377d013177&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;fritz_all_via_windell&lt;/sys_name&gt;&lt;sys_package display_value="Innovate + Needit" source="x_1131426_innovate"&gt;5cfa5a1197d231107b8c9934a253aff3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Innovate + Needit"&gt;5cfa5a1197d231107b8c9934a253aff3&lt;/sys_scope&gt;&lt;sys_update_name&gt;discovery_schedule_5d8a5cf0c3dfae1025e6fb377d013177&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-19 19:51:26&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;use_snmp_version&gt;all&lt;/use_snmp_version&gt;&lt;vm_run/&gt;&lt;was_created_by_system&gt;false&lt;/was_created_by_system&gt;&lt;/discovery_schedule&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1173450503</payload_hash>
+        <record_name>fritz_all_via_windell</record_name>
+        <reverted_from/>
+        <source>1ff7ebff04b12210559073c06a02f76e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-22 18:56:02</sys_created_on>
+        <sys_id>b3d22c68c3c2321025e6fb377d0131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b476b24290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-22 18:56:02</sys_updated_on>
+        <type>Discovery Schedule</type>
+        <update_guid>fbd22c68cbc23210fc3633cf4b30e7da</update_guid>
+        <update_guid_history>fbd22c68cbc23210fc3633cf4b30e7da:0,67c983b381e0321029722e430c7fe168:-1923300923,22b90bb376e032104bbbfe66aa9abe82:-462431387,c6d88373bbe0321096e6d38e2f848b7a:-697993656,a79ad8349fdfae10b6a5d5f4439adbfa:-753886620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="fritz_all_via_windell">c9842c6cc3c2321025e6fb377d0131b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-22 19:03:14</sys_created_on>
+        <sys_db_object display_value="" name="discovery_schedule">discovery_schedule</sys_db_object>
+        <sys_id>8e50ca5af687427abc61b2bc1db68c44</sys_id>
+        <sys_metadata>5d8a5cf0c3dfae1025e6fb377d013177</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fritz_all_via_windell</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_scope_delete display_value="">3d0c0476ae1842fc9c098640f1b71b10</sys_scope_delete>
+        <sys_update_name>discovery_schedule_5d8a5cf0c3dfae1025e6fb377d013177</sys_update_name>
+        <sys_update_version display_value="discovery_schedule_5d8a5cf0c3dfae1025e6fb377d013177">b3d22c68c3c2321025e6fb377d0131db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-22 19:03:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
