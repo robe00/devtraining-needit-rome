@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>tso</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>tso</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">7a35a77304712210559073c06a02f7a5</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 20:17:44</sys_created_on>
+        <sys_id>f07e9e5fc353321025e6fb377d01318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tso</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_wizard_answer_f07e9e5fc353321025e6fb377d01318c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 20:17:44</sys_updated_on>
+        <table/>
+        <target_url>x_1131426_innovate_tso.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</application>
+        <file_path/>
+        <instance_id>640a08bb93646a50d9f6ddd548373c3e</instance_id>
+        <instance_name>dev314459</instance_name>
+        <name>sys_wizard_answer_f07e9e5fc353321025e6fb377d01318c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>tso</answer><button_label/><dependent_value/><element/><name>tso</name><next_question/><order>100</order><payload_name/><question display_value="Base Configuration Item" name="Base Configuration Item">7a35a77304712210559073c06a02f7a5</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-03 20:17:44</sys_created_on><sys_id>f07e9e5fc353321025e6fb377d01318c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tso</sys_name><sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package><sys_policy/><sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope><sys_update_name>sys_wizard_answer_f07e9e5fc353321025e6fb377d01318c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-03 20:17:44</sys_updated_on><table/><target_url>x_1131426_innovate_tso.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-42143380</payload_hash>
+        <record_name>tso</record_name>
+        <reverted_from/>
+        <source>c2182a32c332321025e6fb377d01318c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-02-05 11:11:31</sys_created_on>
+        <sys_id>f9e8a6d7c3d3321025e6fb377d01315e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19c2d8006b80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>b9e8a6d7c9d332104e93682d313cde5e</update_guid>
+        <update_guid_history>b9e8a6d7c9d332104e93682d313cde5e:-42143380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 21:03:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>10aa76cb10384ef8945eb7d450de2204</sys_id>
+        <sys_metadata>f07e9e5fc353321025e6fb377d01318c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tso</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_parent display_value="Base Configuration Item">7a35a77304712210559073c06a02f7a5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_scope_delete display_value="">3d0c0476ae1842fc9c098640f1b71b10</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_f07e9e5fc353321025e6fb377d01318c</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_f07e9e5fc353321025e6fb377d01318c">f9e8a6d7c3d3321025e6fb377d01315e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 21:03:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

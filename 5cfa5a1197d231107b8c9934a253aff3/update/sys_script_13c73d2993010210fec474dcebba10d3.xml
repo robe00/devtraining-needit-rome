@@ -35,8 +35,9 @@
 	var niutil = new NeedItUtils();
 	// If the When needed date is before rightnow, do not write the record to the database  
 	// Output an error message to the screen  
-	if((niutil.isDatePast(current.u_calendar_date_time_5)) == true) { //whenNeeded.before(rightnow)){
-		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
+	if((niutil.isDatePast(current.u_calendar_date_time_5)) == true) { 
+	// does not work: if(u_calendar_date_time_5.before(rightnow) == true) { 
+		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database..");
 		current.setAbortAction(true);
 	}
 })(current, previous);]]></script>
@@ -46,15 +47,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>13c73d2993010210fec474dcebba10d3</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>NeedIt When needed field date</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Innovate" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Innovate">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
         <sys_update_name>sys_script_13c73d2993010210fec474dcebba10d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 18:35:14</sys_updated_on>
+        <sys_updated_on>2026-02-16 21:37:56</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

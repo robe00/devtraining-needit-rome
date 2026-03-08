@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>cmdb_ci_server</basic_apply_to>
+        <basic_query_from>x_1131426_innovate_tso</basic_query_from>
+        <insert_callback/>
+        <name>Assigned TSO</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 20:28:20</sys_created_on>
+        <sys_id>3830aa93c393321025e6fb377d01311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned TSO</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_update_name>sys_relationship_3830aa93c393321025e6fb377d01311e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 20:28:20</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=3830aa93c393321025e6fb377d01311e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</application>
+        <file_path/>
+        <instance_id>640a08bb93646a50d9f6ddd548373c3e</instance_id>
+        <instance_name>dev314459</instance_name>
+        <name>sys_relationship_3830aa93c393321025e6fb377d01311e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;cmdb_ci_server&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1131426_innovate_tso&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Assigned TSO&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-03 20:28:20&lt;/sys_created_on&gt;&lt;sys_id&gt;3830aa93c393321025e6fb377d01311e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assigned TSO&lt;/sys_name&gt;&lt;sys_package display_value="Innovate + Needit" source="x_1131426_innovate"&gt;5cfa5a1197d231107b8c9934a253aff3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Innovate + Needit"&gt;5cfa5a1197d231107b8c9934a253aff3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_3830aa93c393321025e6fb377d01311e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-03 20:28:20&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3830aa93c393321025e6fb377d01311e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1749215343</payload_hash>
+        <record_name>Assigned TSO</record_name>
+        <reverted_from/>
+        <source>20e41cd9c3322e1025e6fb377d013128</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 20:28:20</sys_created_on>
+        <sys_id>14e02217c393321025e6fb377d0131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cb5632a370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 20:28:20</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>d0e022179f933210e0a9e2a7d23768e5</update_guid>
+        <update_guid_history>d0e022179f933210e0a9e2a7d23768e5:-1749215343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 20:50:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>920a4ede99c14ad9a63bbb5f69f838c1</sys_id>
+        <sys_metadata>3830aa93c393321025e6fb377d01311e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned TSO</sys_name>
+        <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+        <sys_parent display_value="CMDB CI Server">4065a7f304712210559073c06a02f7e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+        <sys_scope_delete display_value="">3d0c0476ae1842fc9c098640f1b71b10</sys_scope_delete>
+        <sys_update_name>sys_relationship_3830aa93c393321025e6fb377d01311e</sys_update_name>
+        <sys_update_version display_value="sys_relationship_3830aa93c393321025e6fb377d01311e">14e02217c393321025e6fb377d0131e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 20:50:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

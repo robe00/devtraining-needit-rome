@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="cmdb_ci_linux_server" version="2" view="tso_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmdb_ci_network_adapter.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>79a22a1bc393321025e6fb377d01316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>cmdb_ci_storage_hba.computer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>fda22a1bc393321025e6fb377d01316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>cmdb_ci_storage_device.computer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>75a22a1bc393321025e6fb377d01316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>cmdb_ci_file_system.computer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>f9a22a1bc393321025e6fb377d01316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>cmdb_software_instance.installed_on</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>71a22a1bc393321025e6fb377d01316e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>cmdb_running_process.computer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>f5a22a1bc393321025e6fb377d01316e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>cmdb_serial_number.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>7da22a1bc393321025e6fb377d01316e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>f1a22a1bc393321025e6fb377d01316f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>8</position>
+            <related_list>REL:80a164460ab30152004422b3fb69ca1e</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>79a22a1bc393321025e6fb377d01316f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>9</position>
+            <related_list>REL:8203b8b30ab301520035533a59ed530f</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>fda22a1bc393321025e6fb377d01316f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>10</position>
+            <related_list>cmdb_ci_memory_module.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>75a22a1bc393321025e6fb377d013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Linux Server - TSO View" name="cmdb_ci_linux_server" related_list="NULL" sys_domain="global" view="a2026a97c393321025e6fb377d0131f7">39a22a1bc393321025e6fb377d01316b</list_id>
+            <order_by/>
+            <position>11</position>
+            <related_list>x_1131426_innovate_tso.duplicate_of</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_id>f9a22a1bc393321025e6fb377d013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Linux Server - TSO View</calculated_name>
+            <filter/>
+            <name>cmdb_ci_linux_server</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-03 20:36:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39a22a1bc393321025e6fb377d01316b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Linux Server - TSO View</sys_name>
+            <sys_package display_value="Innovate + Needit" source="x_1131426_innovate">5cfa5a1197d231107b8c9934a253aff3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Innovate + Needit">5cfa5a1197d231107b8c9934a253aff3</sys_scope>
+            <sys_update_name>sys_ui_related_cmdb_ci_linux_server_tso_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-03 20:36:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="TSO View" name="tso_view">a2026a97c393321025e6fb377d0131f7</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
